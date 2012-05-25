@@ -1,0 +1,47 @@
+<!-- Common -->
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "Agente">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+
+<!-- About -->
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Home Page">
+<!ENTITY useragentswitcher.about.title "Sobre o User Agent Switcher">
+
+<!-- Menu -->
+<!ENTITY useragentswitcher.about.key "S">
+<!ENTITY useragentswitcher.about.label "Sobre...">
+<!ENTITY useragentswitcher.default.key "P">
+<!ENTITY useragentswitcher.default.label "Omissão">
+<!ENTITY useragentswitcher.help.label "Ajuda...">
+<!ENTITY useragentswitcher.help.key "A">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Opções">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "Opções...">
+
+<!-- Options -->
+<!ENTITY useragentswitcher.app.name.label "Nome da aplicação:">
+<!ENTITY useragentswitcher.app.version.label "Versão da aplicação:">
+<!ENTITY useragentswitcher.description.label "Descrição:">
+<!ENTITY useragentswitcher.import.overwrite "Substituir agentes existentes ao importar">
+<!ENTITY useragentswitcher.menu.hide "Ocultar o menu do User Agent Switcher do menu Ferramentas">
+<!ENTITY useragentswitcher.options.add "Adicionar">
+<!ENTITY useragentswitcher.options.default.label "Omissão">
+<!ENTITY useragentswitcher.options.delete "Eliminar">
+<!ENTITY useragentswitcher.options.edit "Editar">
+<!ENTITY useragentswitcher.options.export "Exportar">
+<!ENTITY useragentswitcher.options.general.label "Geral">
+<!ENTITY useragentswitcher.options.import "Importar">
+<!ENTITY useragentswitcher.options.import.export "Importar/Exportar">
+<!ENTITY useragentswitcher.options.move.down "Mover para baixo">
+<!ENTITY useragentswitcher.options.move.up "Mover para cima">
+<!ENTITY useragentswitcher.options.reset "Restaurar configuração por omissão">
+<!ENTITY useragentswitcher.options.title "Opções do User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "Agentes">
+<!ENTITY useragentswitcher.options.view.default "Exibir agente padrão">
+<!ENTITY useragentswitcher.platform.label "Plataforma:">
+<!ENTITY useragentswitcher.user.agent.label "Agente do utilizador:">
+<!ENTITY useragentswitcher.vendor.label "Fornecedor:">
+<!ENTITY useragentswitcher.vendor.sub.label "Versão do fornecedor:">

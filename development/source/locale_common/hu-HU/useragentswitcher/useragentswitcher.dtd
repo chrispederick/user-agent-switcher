@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "B">
+<!ENTITY useragentswitcher.label "BÃ¶ngÃ©szÅ AzonosÃ­tÃ³">
+<!ENTITY useragentswitcher.name "BÃ¶ngÃ©szÅ AzonosÃ­tÃ³ VÃ¡ltÃ³">
+<!ENTITY useragentswitcher.about.author "KÃ©szÃ­tÅ">
+<!ENTITY useragentswitcher.about.build.date "ÃpÃ­tÃ©si dÃ¡tum">
+<!ENTITY useragentswitcher.about.home.page "Honlap">
+<!ENTITY useragentswitcher.about.title "A BÃ¶ngÃ©szÅ AzonosÃ­tÃ³ VÃ¡ltÃ³ nÃ©vjegye">
+<!ENTITY useragentswitcher.about.key "N">
+<!ENTITY useragentswitcher.about.label "NÃ©vjegy...">
+<!ENTITY useragentswitcher.default.key "A">
+<!ENTITY useragentswitcher.default.label "AlapÃ©rtelmezett">
+<!ENTITY useragentswitcher.help.label "SÃºgÃ³...">
+<!ENTITY useragentswitcher.help.key "S">
+<!ENTITY useragentswitcher.options.key "B">
+<!ENTITY useragentswitcher.options.label "BeÃ¡llÃ­tÃ¡sok">
+<!ENTITY useragentswitcher.options.menu.key "B">
+<!ENTITY useragentswitcher.options.menu.label "BeÃ¡llÃ­tÃ¡sok...">
+<!ENTITY useragentswitcher.app.name.label "ProgramnÃ©v:">
+<!ENTITY useragentswitcher.app.version.label "ProgramverziÃ³:">
+<!ENTITY useragentswitcher.description.label "LeÃ­rÃ¡s:">
+<!ENTITY useragentswitcher.import.overwrite "LÃ©tezÅ bÃ¶ngÃ©szÅ azonosÃ­tÃ³k felÃ¼lÃ­rÃ¡sa importÃ¡lÃ¡skor">
+<!ENTITY useragentswitcher.menu.hide "BÃ¶ngÃ©szÅ AzonosÃ­tÃ³ VÃ¡ltÃ³ menÃ¼elem elrejtÃ©se az EszkÃ¶zÃ¶k menÃ¼bÅl">
+<!ENTITY useragentswitcher.options.add "HozzÃ¡adÃ¡s...">
+<!ENTITY useragentswitcher.options.default.label "AlapÃ©rtelmezett">
+<!ENTITY useragentswitcher.options.delete "EltÃ¡volÃ­tÃ¡s...">
+<!ENTITY useragentswitcher.options.edit "SzerkesztÃ©s...">
+<!ENTITY useragentswitcher.options.export "ExportÃ¡lÃ¡s...">
+<!ENTITY useragentswitcher.options.general.label "ÃltalÃ¡nos">
+<!ENTITY useragentswitcher.options.import "ImportÃ¡lÃ¡s...">
+<!ENTITY useragentswitcher.options.import.export "ImportÃ¡lÃ¡s/ExportÃ¡lÃ¡s">
+<!ENTITY useragentswitcher.options.move.down "MozgatÃ¡s lefelÃ©">
+<!ENTITY useragentswitcher.options.move.up "MozgatÃ¡s felfelÃ©">
+<!ENTITY useragentswitcher.options.reset "AlapÃ©rtelmezett beÃ¡llÃ­tÃ¡sok...">
+<!ENTITY useragentswitcher.options.title "BÃ¶ngÃ©szÅ AzonosÃ­tÃ³ VÃ¡ltÃ³ BeÃ¡llÃ­tÃ¡sok">
+<!ENTITY useragentswitcher.options.user.agents.label "BÃ¶ngÃ©szÅ azonosÃ­tÃ³k">
+<!ENTITY useragentswitcher.options.view.default "MegtekintÃ©s...">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "BÃ¶ngÃ©szÅ azonosÃ­tÃ³:">
+<!ENTITY useragentswitcher.vendor.label "SzÃ¡llÃ­tÃ³:">
+<!ENTITY useragentswitcher.vendor.sub.label "TovÃ¡bbi szÃ¡llÃ­tÃ³:">

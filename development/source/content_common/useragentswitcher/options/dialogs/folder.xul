@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://useragentswitcher/content/options/dialogs/dialog.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://useragentswitcher/locale/useragentswitcher.dtd">
+
+<dialog buttons="accept,cancel"
+        id="useragentswitcher-dialog"
+        ondialogaccept="UserAgentSwitcherFolderDialog.saveFolder()"
+        ondialogcancel="UserAgentSwitcherFolderDialog.clearFolder()"
+        onload="UserAgentSwitcherFolderDialog.initialize()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="chrome://useragentswitcher/content/common/string.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/stringbundle.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/options/dialogs/folder.js" type="application/x-javascript"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="useragentswitcher-string-bundle" src="chrome://useragentswitcher/locale/useragentswitcher.properties"/>
+  </stringbundleset>
+
+  <hbox align="center" flex="1">
+		<label control="useragentswitcher-name" value="&useragentswitcher.name.label;"/>
+		<textbox id="useragentswitcher-name" flex="1" oninput="UserAgentSwitcherFolderDialog.updateName()"/>
+  </hbox>
+</dialog>

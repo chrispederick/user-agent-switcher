@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "p">
+<!ENTITY useragentswitcher.label "Identyfikator przeglądarki">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Strona domowa">
+<!ENTITY useragentswitcher.about.title "O User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "O">
+<!ENTITY useragentswitcher.about.label "O rozszerzeniu...">
+<!ENTITY useragentswitcher.default.key "D">
+<!ENTITY useragentswitcher.default.label "Domyślny">
+<!ENTITY useragentswitcher.help.label "Pomoc...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "p">
+<!ENTITY useragentswitcher.options.label "Opcje">
+<!ENTITY useragentswitcher.options.menu.key "p">
+<!ENTITY useragentswitcher.options.menu.label "Opcje...">
+<!ENTITY useragentswitcher.app.name.label "Nazwa:">
+<!ENTITY useragentswitcher.app.version.label "Wersja:">
+<!ENTITY useragentswitcher.description.label "Opis:">
+<!ENTITY useragentswitcher.import.overwrite "Nadpisz istniejące identyfikatory przeglądarki podczas importu">
+<!ENTITY useragentswitcher.menu.hide "Ukryj &quot;Identyfikator przeglądarki&quot; w menu &quot;Narzędzia&quot;">
+<!ENTITY useragentswitcher.options.add "Dodaj...">
+<!ENTITY useragentswitcher.options.default.label "Domyślny">
+<!ENTITY useragentswitcher.options.delete "Usuń...">
+<!ENTITY useragentswitcher.options.edit "Edytuj...">
+<!ENTITY useragentswitcher.options.export "Eksport...">
+<!ENTITY useragentswitcher.options.general.label "Ogólne">
+<!ENTITY useragentswitcher.options.import "Import...">
+<!ENTITY useragentswitcher.options.import.export "Import/Eksport">
+<!ENTITY useragentswitcher.options.move.down "Przesuń w dół">
+<!ENTITY useragentswitcher.options.move.up "Przesuń w górę">
+<!ENTITY useragentswitcher.options.reset "Przywróć ustawienia...">
+<!ENTITY useragentswitcher.options.title "Opcje User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "Identyfikatory">
+<!ENTITY useragentswitcher.options.view.default "Zobacz domyślny...">
+<!ENTITY useragentswitcher.platform.label "Platforma:">
+<!ENTITY useragentswitcher.user.agent.label "Identyfikator:">
+<!ENTITY useragentswitcher.vendor.label "Producent:">
+<!ENTITY useragentswitcher.vendor.sub.label "Podproducent:">

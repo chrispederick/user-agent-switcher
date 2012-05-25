@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://useragentswitcher/content/options/dialogs/dialog.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://useragentswitcher/locale/useragentswitcher.dtd">
+
+<dialog buttons="accept,cancel"
+        id="useragentswitcher-dialog"
+        ondialogaccept="UserAgentSwitcherUserAgentDialog.saveUserAgent()"
+        ondialogcancel="UserAgentSwitcherUserAgentDialog.clearUserAgent()"
+        onload="UserAgentSwitcherUserAgentDialog.initialize()"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="chrome://useragentswitcher/content/common/preferences.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/string.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/stringbundle.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/options/dialogs/useragent.js" type="application/x-javascript"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="useragentswitcher-string-bundle" src="chrome://useragentswitcher/locale/useragentswitcher.properties"/>
+  </stringbundleset>
+
+	<vbox>
+		<description id="useragentswitcher-new-user-agent">&useragentswitcher.new.user.agent.description;</description>
+		<separator id="useragentswitcher-user-agent-separator"/>
+	    
+    <grid flex="1">
+      <columns>
+        <column/>
+        <column flex="1"/>
+      </columns>
+      <rows>
+        <row align="center">
+          <label control="useragentswitcher-description" value="&useragentswitcher.description;"/>
+          <textbox id="useragentswitcher-description" oninput="UserAgentSwitcherUserAgentDialog.updateDescription()"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-user-agent" value="&useragentswitcher.user.agent.label;"/>
+          <textbox id="useragentswitcher-user-agent"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-app-code-name" value="&useragentswitcher.app.code.name;"/>
+          <textbox id="useragentswitcher-app-code-name"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-app-name" value="&useragentswitcher.app.name;"/>
+          <textbox id="useragentswitcher-app-name"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-app-version" value="&useragentswitcher.app.version;"/>
+          <textbox id="useragentswitcher-app-version"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-platform" value="&useragentswitcher.platform;"/>
+          <textbox id="useragentswitcher-platform"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-vendor" value="&useragentswitcher.vendor;"/>
+          <textbox id="useragentswitcher-vendor"/>
+        </row>
+        <row align="center">
+          <label control="useragentswitcher-vendor-sub" value="&useragentswitcher.vendor.sub;"/>
+          <textbox id="useragentswitcher-vendor-sub"/>
+        </row>
+      </rows>
+    </grid>
+	</vbox>
+</dialog>

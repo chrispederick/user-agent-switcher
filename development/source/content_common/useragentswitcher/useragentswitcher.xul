@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://useragentswitcher/skin/useragentswitcher.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://useragentswitcher/locale/useragentswitcher.dtd">
+
+<overlay id="useragentswitcher"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script src="chrome://global/content/nsDragAndDrop.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/array.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/dom.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/log.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/preferences.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/string.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/stringbundle.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/upgrade.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/useragentswitcher.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/xml/import.js" type="application/x-javascript"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="useragentswitcher-string-bundle" src="chrome://useragentswitcher/locale/useragentswitcher.properties"/>
+  </stringbundleset>
+
+  <menupopup id="menu_ToolsPopup">
+    <menu id="useragentswitcher-menu" class="menuitem-iconic" image="chrome://useragentswitcher/skin/default.png" insertafter="devToolsSeparator" label="&useragentswitcher.name;">
+      <menupopup id="useragentswitcher-popup-menu">
+        <menuitem id="useragentswitcher-default-menu" label="&useragentswitcher.default.user.agent;" name="useragentswitcher-group-menu" type="radio" oncommand="UserAgentSwitcher.reset()"/>
+        <menuseparator id="useragentswitcher-separator-1-menu"/>
+        <menuseparator id="useragentswitcher-separator-2-menu"/>
+        <menuitem id="useragentswitcher-edit-user-agents-menu" label="&useragentswitcher.edit.user.agents;" oncommand="UserAgentSwitcher.options()"/>
+        <menuseparator id="useragentswitcher-separator-3-menu"/>
+        <menu id="useragentswitcher-extension-menu" label="&useragentswitcher.name;">
+          <menupopup>
+            <menuitem id="useragentswitcher-options-menu" label="&useragentswitcher.options;" oncommand="UserAgentSwitcher.options()"/>
+            <menuseparator id="useragentswitcher-extension-separator-menu"/>
+            <menuitem id="useragentswitcher-help-menu" label="&useragentswitcher.help;" oncommand="UserAgentSwitcher.help()"/>
+            <menuitem id="useragentswitcher-test-menu" label="&useragentswitcher.test;" oncommand="UserAgentSwitcher.test()"/>
+            <menuitem id="useragentswitcher-about-menu" label="&useragentswitcher.about;" oncommand="UserAgentSwitcher.about()"/>
+          </menupopup>
+        </menu>
+      </menupopup>
+    </menu>
+  </menupopup>
+
+  <menupopup id="taskPopup">
+    <menu id="useragentswitcher-menu" class="menuitem-iconic" image="chrome://useragentswitcher/skin/default.png" insertafter="downloadmgr" label="&useragentswitcher.name;">
+      <menupopup id="useragentswitcher-popup-menu">
+        <menuitem id="useragentswitcher-default-menu" label="&useragentswitcher.default.user.agent;" name="useragentswitcher-group-menu" type="radio" oncommand="UserAgentSwitcher.reset()"/>
+        <menuseparator id="useragentswitcher-separator-1-menu"/>
+        <menuseparator id="useragentswitcher-separator-2-menu"/>
+        <menuitem id="useragentswitcher-edit-user-agents-menu" label="&useragentswitcher.edit.user.agents;" oncommand="UserAgentSwitcher.options()"/>
+        <menuseparator id="useragentswitcher-separator-3-menu"/>
+        <menu id="useragentswitcher-extension-menu" label="&useragentswitcher.name;">
+          <menupopup>
+            <menuitem id="useragentswitcher-options-menu" label="&useragentswitcher.options;" oncommand="UserAgentSwitcher.options()"/>
+            <menuseparator id="useragentswitcher-extension-separator-menu"/>
+            <menuitem id="useragentswitcher-help-menu" label="&useragentswitcher.help;" oncommand="UserAgentSwitcher.help()"/>
+            <menuitem id="useragentswitcher-test-menu" label="&useragentswitcher.test;" oncommand="UserAgentSwitcher.test()"/>
+            <menuitem id="useragentswitcher-about-menu" label="&useragentswitcher.about;" oncommand="UserAgentSwitcher.about()"/>
+          </menupopup>
+        </menu>
+      </menupopup>
+    </menu>
+  </menupopup>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="useragentswitcher-button" label="&useragentswitcher.name;" accesskey="&useragentswitcher.name.key;" type="menu" onmouseover="UserAgentSwitcher.openToolbarButton(this)">
+      <menupopup id="useragentswitcher-popup-toolbar">
+        <menuitem id="useragentswitcher-default-toolbar" label="&useragentswitcher.default.user.agent;" accesskey="&useragentswitcher.default.user.agent.key;" name="useragentswitcher-group-toolbar" type="radio" oncommand="UserAgentSwitcher.reset()"/>
+        <menuseparator id="useragentswitcher-separator-1-toolbar"/>
+        <menuseparator id="useragentswitcher-separator-2-toolbar"/>
+        <menuitem id="useragentswitcher-edit-user-agents-toolbar" label="&useragentswitcher.edit.user.agents;" accesskey="&useragentswitcher.edit.user.agents.key;" oncommand="UserAgentSwitcher.options()"/>
+        <menuseparator id="useragentswitcher-separator-3-toolbar"/>
+        <menu id="useragentswitcher-extension-toolbar" label="&useragentswitcher.name;" accesskey="&useragentswitcher.name.key;">
+          <menupopup>
+            <menuitem id="useragentswitcher-options-toolbar" label="&useragentswitcher.options;" accesskey="&useragentswitcher.options.key;" oncommand="UserAgentSwitcher.options()"/>
+            <menuseparator id="useragentswitcher-extension-separator-toolbar"/>
+            <menuitem id="useragentswitcher-help-toolbar" label="&useragentswitcher.help;" accesskey="&useragentswitcher.help.key;" oncommand="UserAgentSwitcher.help()"/>
+            <menuitem id="useragentswitcher-test-toolbar" label="&useragentswitcher.test;" accesskey="&useragentswitcher.test.key;" oncommand="UserAgentSwitcher.test()"/>
+            <menuitem id="useragentswitcher-about-toolbar" label="&useragentswitcher.about;" accesskey="&useragentswitcher.about.key;" oncommand="UserAgentSwitcher.about()"/>
+          </menupopup>
+        </menu>
+      </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+</overlay>

@@ -1,0 +1,19 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#useragentswitcher-options-dialog
+{
+  height: 40em;
+  width: 45em;
+}
+
+.url
+{
+  color: #0000ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.url:hover
+{
+  color: #ff0000;
+}

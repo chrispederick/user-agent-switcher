@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "S">
+<!ENTITY useragentswitcher.label "Selaintunniste">
+<!ENTITY useragentswitcher.name "Selaintunnisteen vaihtaja">
+<!ENTITY useragentswitcher.about.author "Tekijä">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Kotisivu">
+<!ENTITY useragentswitcher.about.title "Tietoja selaintunnisteen vaihtajasta">
+<!ENTITY useragentswitcher.about.key "T">
+<!ENTITY useragentswitcher.about.label "Tietoja...">
+<!ENTITY useragentswitcher.default.key "O">
+<!ENTITY useragentswitcher.default.label "Oletus">
+<!ENTITY useragentswitcher.help.label "Ohje...">
+<!ENTITY useragentswitcher.help.key "O">
+<!ENTITY useragentswitcher.options.key "A">
+<!ENTITY useragentswitcher.options.label "Asetukset">
+<!ENTITY useragentswitcher.options.menu.key "A">
+<!ENTITY useragentswitcher.options.menu.label "Asetukset...">
+<!ENTITY useragentswitcher.app.name.label "Ohjelman nimi:">
+<!ENTITY useragentswitcher.app.version.label "Ohjelman versio:">
+<!ENTITY useragentswitcher.description.label "Kuvaus:">
+<!ENTITY useragentswitcher.import.overwrite "Korvaa olemassa olevat tunnisteet tuotaessa uusia">
+<!ENTITY useragentswitcher.menu.hide "Piilota Selaintunnisteen vaihtajan valikko">
+<!ENTITY useragentswitcher.options.add "Lisää...">
+<!ENTITY useragentswitcher.options.default.label "Oletus">
+<!ENTITY useragentswitcher.options.delete "Poista...">
+<!ENTITY useragentswitcher.options.edit "Muokkaa...">
+<!ENTITY useragentswitcher.options.export "Vie...">
+<!ENTITY useragentswitcher.options.general.label "Yleinen">
+<!ENTITY useragentswitcher.options.import "Tuo...">
+<!ENTITY useragentswitcher.options.import.export "Tuo tai Vie">
+<!ENTITY useragentswitcher.options.move.down "Siirrä alas">
+<!ENTITY useragentswitcher.options.move.up "Siirrä ylös">
+<!ENTITY useragentswitcher.options.reset "Palauta alkuasetukset...">
+<!ENTITY useragentswitcher.options.title "Selaintunnisteen vaihtajan asetukset">
+<!ENTITY useragentswitcher.options.user.agents.label "Selaintunnisteet">
+<!ENTITY useragentswitcher.options.view.default "Näytä oletus...">
+<!ENTITY useragentswitcher.platform.label "Alusta:">
+<!ENTITY useragentswitcher.user.agent.label "Selaintunniste:">
+<!ENTITY useragentswitcher.vendor.label "Julkaisija:">
+<!ENTITY useragentswitcher.vendor.sub.label "2. julkaisija:">

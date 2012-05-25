@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "B">
+<!ENTITY useragentswitcher.label "Browserkennung">
+<!ENTITY useragentswitcher.name "Browserkennung wechseln">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Erstellungsdatum">
+<!ENTITY useragentswitcher.about.home.page "Homepage">
+<!ENTITY useragentswitcher.about.title "Über User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "Ü">
+<!ENTITY useragentswitcher.about.label "Über...">
+<!ENTITY useragentswitcher.default.key "S">
+<!ENTITY useragentswitcher.default.label "Standard">
+<!ENTITY useragentswitcher.help.label "Hilfe (engl.)...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Optionen">
+<!ENTITY useragentswitcher.options.menu.key "E">
+<!ENTITY useragentswitcher.options.menu.label "Einstellungen...">
+<!ENTITY useragentswitcher.app.name.label "Programmname:">
+<!ENTITY useragentswitcher.app.version.label "Programmversion:">
+<!ENTITY useragentswitcher.description.label "Beschreibung:">
+<!ENTITY useragentswitcher.import.overwrite "Bestehende Einträge beim Importieren überschreiben">
+<!ENTITY useragentswitcher.menu.hide "Eintrag &apos;Browserkennung wechseln&apos; im Menü &apos;Extras&apos; ausblenden">
+<!ENTITY useragentswitcher.options.add "Hinzufügen...">
+<!ENTITY useragentswitcher.options.default.label "Standard">
+<!ENTITY useragentswitcher.options.delete "Löschen...">
+<!ENTITY useragentswitcher.options.edit "Bearbeiten...">
+<!ENTITY useragentswitcher.options.export "Exportieren...">
+<!ENTITY useragentswitcher.options.general.label "Allgemein">
+<!ENTITY useragentswitcher.options.import "Importieren...">
+<!ENTITY useragentswitcher.options.import.export "Importieren/Exportieren">
+<!ENTITY useragentswitcher.options.move.down "Nach unten">
+<!ENTITY useragentswitcher.options.move.up "Nach oben">
+<!ENTITY useragentswitcher.options.reset "Einstellungen zurücksetzen...">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher - Einstellungen">
+<!ENTITY useragentswitcher.options.user.agents.label "Browserkennung">
+<!ENTITY useragentswitcher.options.view.default "Standard ansehen...">
+<!ENTITY useragentswitcher.platform.label "Plattform:">
+<!ENTITY useragentswitcher.user.agent.label "Browserkennung:">
+<!ENTITY useragentswitcher.vendor.label "Anbieter:">
+<!ENTITY useragentswitcher.vendor.sub.label "Anbieterversion:">

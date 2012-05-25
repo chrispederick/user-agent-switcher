@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Аўтар">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Хатняя старонка">
+<!ENTITY useragentswitcher.about.title "Аб User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "Аб">
+<!ENTITY useragentswitcher.about.label "Аб User Agent Switcher">
+<!ENTITY useragentswitcher.default.key "у">
+<!ENTITY useragentswitcher.default.label "Па змаўчанні">
+<!ENTITY useragentswitcher.help.label "Даведка...">
+<!ENTITY useragentswitcher.help.key "З">
+<!ENTITY useragentswitcher.options.key "Н">
+<!ENTITY useragentswitcher.options.label "Налады">
+<!ENTITY useragentswitcher.options.menu.key "Н">
+<!ENTITY useragentswitcher.options.menu.label "Налады...">
+<!ENTITY useragentswitcher.app.name.label "Імя прыкладання:">
+<!ENTITY useragentswitcher.app.version.label "Версія прыкладання:">
+<!ENTITY useragentswitcher.description.label "Апісанне:">
+<!ENTITY useragentswitcher.import.overwrite "Перазапісваць пры імпарце наяўныя user agents">
+<!ENTITY useragentswitcher.menu.hide "Hide the User Agent Switcher Tools menu">
+<!ENTITY useragentswitcher.options.add "Дадаць...">
+<!ENTITY useragentswitcher.options.default.label "Па змаўчанні">
+<!ENTITY useragentswitcher.options.delete "Выдаліць...">
+<!ENTITY useragentswitcher.options.edit "Змяніць...">
+<!ENTITY useragentswitcher.options.export "Экспарт...">
+<!ENTITY useragentswitcher.options.general.label "Агульныя">
+<!ENTITY useragentswitcher.options.import "Імпарт...">
+<!ENTITY useragentswitcher.options.import.export "Імпарт/Экспарт">
+<!ENTITY useragentswitcher.options.move.down "Уніз">
+<!ENTITY useragentswitcher.options.move.up "Уверх">
+<!ENTITY useragentswitcher.options.reset "Скінуць налады...">
+<!ENTITY useragentswitcher.options.title "Налады User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agents">
+<!ENTITY useragentswitcher.options.view.default "UA па змаўчанні...">
+<!ENTITY useragentswitcher.platform.label "Платформа:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "Vendor:">
+<!ENTITY useragentswitcher.vendor.sub.label "Vendor Sub:">

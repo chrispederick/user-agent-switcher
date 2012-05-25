@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Skeakeler">
+<!ENTITY useragentswitcher.about.author "Auteur">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Thússide">
+<!ENTITY useragentswitcher.about.title "Oer User Agent Skeakeler">
+<!ENTITY useragentswitcher.about.key "O">
+<!ENTITY useragentswitcher.about.label "Oer...">
+<!ENTITY useragentswitcher.default.key "S">
+<!ENTITY useragentswitcher.default.label "Standert">
+<!ENTITY useragentswitcher.help.label "Help">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Opsjes">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "Opsjes">
+<!ENTITY useragentswitcher.app.name.label "App. Namme:">
+<!ENTITY useragentswitcher.app.version.label "App. Ferzje">
+<!ENTITY useragentswitcher.description.label "Beskriuwing">
+<!ENTITY useragentswitcher.import.overwrite "Oerskriuw besteande user agents tiidens ymportearjen">
+<!ENTITY useragentswitcher.menu.hide "Ferstop de User Agent Skeakeler Wurkbalk">
+<!ENTITY useragentswitcher.options.add "Tafoegje...">
+<!ENTITY useragentswitcher.options.default.label "Standert">
+<!ENTITY useragentswitcher.options.delete "Fourtsmite...">
+<!ENTITY useragentswitcher.options.edit "Bewurkje...">
+<!ENTITY useragentswitcher.options.export "Eksportearje...">
+<!ENTITY useragentswitcher.options.general.label "Algemien">
+<!ENTITY useragentswitcher.options.import "Ymportear...">
+<!ENTITY useragentswitcher.options.import.export "Ymportear/Eksportear">
+<!ENTITY useragentswitcher.options.move.down "Ferpleats nei ûnder">
+<!ENTITY useragentswitcher.options.move.up "Ferpleats nei boppen">
+<!ENTITY useragentswitcher.options.reset "Opsjes Sebeksette">
+<!ENTITY useragentswitcher.options.title "User Agent Skeakeler Opsjes">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agents">
+<!ENTITY useragentswitcher.options.view.default "Toan Standert">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "Bedriuw:">
+<!ENTITY useragentswitcher.vendor.sub.label "Bedriuw Sub:">

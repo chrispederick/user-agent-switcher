@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="/project.css" type="text/css">
+<link rel="icon" href="http://www.mozdev.org/sharedimages/mozdev-icon.png" type="image/png">

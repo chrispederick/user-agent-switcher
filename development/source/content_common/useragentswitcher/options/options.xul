@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://useragentswitcher/content/options/options.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://useragentswitcher/locale/useragentswitcher.dtd">
+
+<dialog buttons="accept,cancel"
+        id="useragentswitcher-options-dialog"
+        ondialogaccept="UserAgentSwitcherOptions.saveOptions()"
+        onload="UserAgentSwitcherOptions.initialize()"
+        onunload="UserAgentSwitcherOptions.uninitialize()"
+        title="&useragentswitcher.options.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<!--
+	<script src="chrome://global/content/nsDragAndDrop.js" type="application/x-javascript"/>
+	<script src="chrome://global/content/nsTransferable.js" type="application/x-javascript"/>
+	-->
+  <script src="chrome://useragentswitcher/content/common/dom.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/log.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/preferences.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/string.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/common/stringbundle.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/options/options.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/upgrade.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/xml/export.js" type="application/x-javascript"/>
+  <script src="chrome://useragentswitcher/content/xml/import.js" type="application/x-javascript"/>
+
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="useragentswitcher-string-bundle" src="chrome://useragentswitcher/locale/useragentswitcher.properties"/>
+  </stringbundleset>
+
+  <vbox flex="1">
+		<groupbox>
+			<caption label="&useragentswitcher.general;"/>
+			
+			<hbox flex="1">
+				<checkbox id="useragentswitcher-menu-hide" label="&useragentswitcher.menu.hide;"/>
+				<spacer flex="1"/>
+				<button label="&useragentswitcher.reset.options;" oncommand="UserAgentSwitcherOptions.resetOptions()"/>
+			</hbox>
+		</groupbox>
+
+		<groupbox flex="1">
+			<caption label="&useragentswitcher.user.agents;"/>
+			
+			<hbox flex="1">
+				<tree id="useragentswitcher-options-tree" context="useragentswitcher-user-agents-context" flex="1" hidecolumnpicker="true" onselect="UserAgentSwitcherOptions.selectUserAgent(this)">
+					<treecols>
+						<treecol label="&useragentswitcher.user.agent;" flex="1" primary="true"/>
+					</treecols>
+					<treechildren id="useragentswitcher-options-user-agents"/>
+				</tree>
+				<vbox>
+					<button id="useragentswitcher-move-up-button" disabled="true" label="&useragentswitcher.move.up;" oncommand="UserAgentSwitcherOptions.moveUp()"/>
+					<button id="useragentswitcher-move-down-button" disabled="true" label="&useragentswitcher.move.down;" oncommand="UserAgentSwitcherOptions.moveDown()"/>
+				</vbox>
+			</hbox>
+			
+			<hbox>
+				<button label="&useragentswitcher.new;" type="menu">
+					<menupopup>
+						<menuitem label="&useragentswitcher.new.user.agent;" oncommand="UserAgentSwitcherOptions.newUserAgent()"/>
+						<menuitem label="&useragentswitcher.new.folder;" oncommand="UserAgentSwitcherOptions.newFolder()"/>
+						<menuitem label="&useragentswitcher.new.separator;" oncommand="UserAgentSwitcherOptions.newSeparator()"/>
+					</menupopup>
+				</button> 
+				<button id="useragentswitcher-edit-button" disabled="true" label="&useragentswitcher.edit;" oncommand="UserAgentSwitcherOptions.edit()"/>
+				<button id="useragentswitcher-delete-button" disabled="true" label="&useragentswitcher.delete;" oncommand="UserAgentSwitcherOptions.deleteUserAgents()"/>
+			</hbox>
+		</groupbox>
+		
+		<groupbox>
+			<caption label="&useragentswitcher.import.export;"/>
+			
+			<vbox>
+				<hbox align="center">
+					<button label="&useragentswitcher.import;" oncommand="UserAgentSwitcherOptions.importUserAgents()"/>
+					<spacer flex="1"/>
+					<checkbox id="useragentswitcher-import-overwrite" label="&useragentswitcher.import.overwrite;"/>
+				</hbox>
+				<hbox align="center">
+					<button label="&useragentswitcher.export;" oncommand="UserAgentSwitcherOptions.exportUserAgents()"/>
+					<spacer flex="1"/>
+			    <description onclick="UserAgentSwitcherOptions.openUserAgentsPage()" class="url">&useragentswitcher.download.user.agents;</description>
+				</hbox>
+			</vbox>
+		</groupbox>
+  </vbox>
+  
+  <popupset>
+  	<popup id="useragentswitcher-user-agents-context" onpopupshowing="UserAgentSwitcherOptions.updateContextMenu()">
+			<menuitem label="&useragentswitcher.new.user.agent;" oncommand="UserAgentSwitcherOptions.newUserAgent()"/>
+			<menuitem label="&useragentswitcher.new.folder;" oncommand="UserAgentSwitcherOptions.newFolder()"/>
+			<menuitem label="&useragentswitcher.new.separator;" oncommand="UserAgentSwitcherOptions.newSeparator()"/>
+			<menuseparator/>
+			<menuitem id="useragentswitcher-edit-menu" label="&useragentswitcher.edit;" oncommand="UserAgentSwitcherOptions.edit()"/>
+			<menuseparator/>
+			<menuitem id="useragentswitcher-cut" label="&useragentswitcher.cut;" oncommand="UserAgentSwitcherOptions.cut()"/>
+			<menuitem id="useragentswitcher-copy" label="&useragentswitcher.copy;" oncommand="UserAgentSwitcherOptions.copy()"/>
+			<menuitem id="useragentswitcher-paste" label="&useragentswitcher.paste;" oncommand="UserAgentSwitcherOptions.paste()"/>
+			<menuitem id="useragentswitcher-delete-menu" label="&useragentswitcher.delete;" oncommand="UserAgentSwitcherOptions.deleteUserAgents()"/>
+			<menuseparator/>
+			<menuitem id="useragentswitcher-move-up" label="&useragentswitcher.move.up;" oncommand="UserAgentSwitcherOptions.moveUp()"/>
+			<menuitem id="useragentswitcher-move-down" label="&useragentswitcher.move.down;" oncommand="UserAgentSwitcherOptions.moveDown()"/>
+  	</popup>
+  </popupset>
+</dialog>

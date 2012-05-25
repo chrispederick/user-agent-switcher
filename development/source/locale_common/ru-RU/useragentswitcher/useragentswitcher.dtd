@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Автор">
+<!ENTITY useragentswitcher.about.build.date "Дата сборки">
+<!ENTITY useragentswitcher.about.home.page "Домашняя страница">
+<!ENTITY useragentswitcher.about.title "О User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "О">
+<!ENTITY useragentswitcher.about.label "О User Agent Switcher">
+<!ENTITY useragentswitcher.default.key "у">
+<!ENTITY useragentswitcher.default.label "По умолчанию">
+<!ENTITY useragentswitcher.help.label "Справка...">
+<!ENTITY useragentswitcher.help.key "С">
+<!ENTITY useragentswitcher.options.key "Н">
+<!ENTITY useragentswitcher.options.label "Настройки">
+<!ENTITY useragentswitcher.options.menu.key "Н">
+<!ENTITY useragentswitcher.options.menu.label "Настройки...">
+<!ENTITY useragentswitcher.app.name.label "Имя приложения:">
+<!ENTITY useragentswitcher.app.version.label "Версия приложения:">
+<!ENTITY useragentswitcher.description.label "Описание:">
+<!ENTITY useragentswitcher.import.overwrite "Перезаписывать при импорте существующие user agents">
+<!ENTITY useragentswitcher.menu.hide "Скрыть User Agent Switcher в меню Инструменты">
+<!ENTITY useragentswitcher.options.add "Добавить...">
+<!ENTITY useragentswitcher.options.default.label "По умолчанию">
+<!ENTITY useragentswitcher.options.delete "Удалить...">
+<!ENTITY useragentswitcher.options.edit "Изменить...">
+<!ENTITY useragentswitcher.options.export "Экспорт...">
+<!ENTITY useragentswitcher.options.general.label "Общие">
+<!ENTITY useragentswitcher.options.import "Импорт...">
+<!ENTITY useragentswitcher.options.import.export "Импорт/Экспорт">
+<!ENTITY useragentswitcher.options.move.down "Вниз">
+<!ENTITY useragentswitcher.options.move.up "Вверх">
+<!ENTITY useragentswitcher.options.reset "Сбросить настройки...">
+<!ENTITY useragentswitcher.options.title "Настройки User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agents">
+<!ENTITY useragentswitcher.options.view.default "UA по умолчанию...">
+<!ENTITY useragentswitcher.platform.label "Платформа:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "Vendor:">
+<!ENTITY useragentswitcher.vendor.sub.label "Vendor Sub:">

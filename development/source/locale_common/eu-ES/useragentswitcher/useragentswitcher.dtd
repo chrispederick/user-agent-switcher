@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "B">
+<!ENTITY useragentswitcher.label "Erabiltzaile Agentea">
+<!ENTITY useragentswitcher.name "Aldatu Erabiltzaile Agentea">
+<!ENTITY useragentswitcher.about.author "Egilea">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Webgunea">
+<!ENTITY useragentswitcher.about.title "Erabiltzaile Agente Aldatzaileari buruz">
+<!ENTITY useragentswitcher.about.key "H">
+<!ENTITY useragentswitcher.about.label "Honi buruz...">
+<!ENTITY useragentswitcher.default.key "e">
+<!ENTITY useragentswitcher.default.label "Lehenetsia">
+<!ENTITY useragentswitcher.help.label "Laguntza...">
+<!ENTITY useragentswitcher.help.key "L">
+<!ENTITY useragentswitcher.options.key "A">
+<!ENTITY useragentswitcher.options.label "Aukerak">
+<!ENTITY useragentswitcher.options.menu.key "A">
+<!ENTITY useragentswitcher.options.menu.label "Aukerak...">
+<!ENTITY useragentswitcher.app.name.label "Apl. Izena:">
+<!ENTITY useragentswitcher.app.version.label "Apl. Bertsioa:">
+<!ENTITY useragentswitcher.description.label "Deskribapena:">
+<!ENTITY useragentswitcher.import.overwrite "Inportatzean gainidatzi erabiltzaile agente zaharrak">
+<!ENTITY useragentswitcher.menu.hide "Ezkutatu Erabiltzaile Agente Aldatzailearen tresna barrako menua">
+<!ENTITY useragentswitcher.options.add "Gehitu...">
+<!ENTITY useragentswitcher.options.default.label "Lehenetsia">
+<!ENTITY useragentswitcher.options.delete "Kendu...">
+<!ENTITY useragentswitcher.options.edit "Editatu...">
+<!ENTITY useragentswitcher.options.export "Esportatu...">
+<!ENTITY useragentswitcher.options.general.label "Orokorra">
+<!ENTITY useragentswitcher.options.import "Inportatu...">
+<!ENTITY useragentswitcher.options.import.export "Inportatu/Esportatu">
+<!ENTITY useragentswitcher.options.move.down "Behera Eraman">
+<!ENTITY useragentswitcher.options.move.up "Gora Eraman">
+<!ENTITY useragentswitcher.options.reset "Berrezarri Aukerak...">
+<!ENTITY useragentswitcher.options.title "Erabiltzaile Agente Aldatzailearen Aukerak">
+<!ENTITY useragentswitcher.options.user.agents.label "Erabiltzaile Agenteak">
+<!ENTITY useragentswitcher.options.view.default "Ikusi Lehenetsia...">
+<!ENTITY useragentswitcher.platform.label "Plataforma:">
+<!ENTITY useragentswitcher.user.agent.label "Erabiltzaile Agentea:">
+<!ENTITY useragentswitcher.vendor.label "Saltzailea:">
+<!ENTITY useragentswitcher.vendor.sub.label "2. saltzailea:">

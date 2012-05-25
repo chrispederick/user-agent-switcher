@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "a">
+<!ENTITY useragentswitcher.label "Prehliadač">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Dátum zostavenia">
+<!ENTITY useragentswitcher.about.home.page "Domovská stránka">
+<!ENTITY useragentswitcher.about.title "Čo je User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "o">
+<!ENTITY useragentswitcher.about.label "Čo je...">
+<!ENTITY useragentswitcher.default.key "d">
+<!ENTITY useragentswitcher.default.label "Predvolený">
+<!ENTITY useragentswitcher.help.label "Pomocník...">
+<!ENTITY useragentswitcher.help.key "P">
+<!ENTITY useragentswitcher.options.key "N">
+<!ENTITY useragentswitcher.options.label "Nastavenia">
+<!ENTITY useragentswitcher.options.menu.key "N">
+<!ENTITY useragentswitcher.options.menu.label "Nastavenia...">
+<!ENTITY useragentswitcher.app.name.label "Názov aplikácie:">
+<!ENTITY useragentswitcher.app.version.label "Verzia aplikácie:">
+<!ENTITY useragentswitcher.description.label "Popis:">
+<!ENTITY useragentswitcher.import.overwrite "Pri importe prepísať doterajšie nastavenia">
+<!ENTITY useragentswitcher.menu.hide "Skryť ponuku nástrojov rozšírenia User Agent Switcher">
+<!ENTITY useragentswitcher.options.add "Pridať...">
+<!ENTITY useragentswitcher.options.default.label "Predvolené">
+<!ENTITY useragentswitcher.options.delete "Odstrániť...">
+<!ENTITY useragentswitcher.options.edit "Upraviť...">
+<!ENTITY useragentswitcher.options.export "Exportovať...">
+<!ENTITY useragentswitcher.options.general.label "Všeobecné">
+<!ENTITY useragentswitcher.options.import "Importovať...">
+<!ENTITY useragentswitcher.options.import.export "Import/Export">
+<!ENTITY useragentswitcher.options.move.down "Presunúť nadol">
+<!ENTITY useragentswitcher.options.move.up "Presunúť nahor">
+<!ENTITY useragentswitcher.options.reset "Obnoviť nastavenia...">
+<!ENTITY useragentswitcher.options.title "Nastavenia pre User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "Prehliadače">
+<!ENTITY useragentswitcher.options.view.default "Zobraziť predvolené...">
+<!ENTITY useragentswitcher.platform.label "Operačný systém:">
+<!ENTITY useragentswitcher.user.agent.label "Prehliadač:">
+<!ENTITY useragentswitcher.vendor.label "Distribúcia:">
+<!ENTITY useragentswitcher.vendor.sub.label "Údaje o distribúcii:">

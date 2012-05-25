@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "ユーザエージェント">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "製作者">
+<!ENTITY useragentswitcher.about.build.date "ビルド日">
+<!ENTITY useragentswitcher.about.home.page "ホームページ">
+<!ENTITY useragentswitcher.about.title "User Agent Switcher について">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.label "About...">
+<!ENTITY useragentswitcher.default.key "D">
+<!ENTITY useragentswitcher.default.label "デフォルト">
+<!ENTITY useragentswitcher.help.label "ヘルプ…">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "オプション">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "オプション…">
+<!ENTITY useragentswitcher.app.name.label "App Name:">
+<!ENTITY useragentswitcher.app.version.label "App Version:">
+<!ENTITY useragentswitcher.description.label "説明">
+<!ENTITY useragentswitcher.import.overwrite "読み込み時に存在するユーザエージェントを上書きする">
+<!ENTITY useragentswitcher.menu.hide "User Agent Switcher ツールメニューを非表示にする">
+<!ENTITY useragentswitcher.options.add "追加…">
+<!ENTITY useragentswitcher.options.default.label "デフォルト">
+<!ENTITY useragentswitcher.options.delete "削除…">
+<!ENTITY useragentswitcher.options.edit "編集…">
+<!ENTITY useragentswitcher.options.export "書き出し…">
+<!ENTITY useragentswitcher.options.general.label "全般">
+<!ENTITY useragentswitcher.options.import "読み込み…">
+<!ENTITY useragentswitcher.options.import.export "読み込みと書き出し">
+<!ENTITY useragentswitcher.options.move.down "下へ移動">
+<!ENTITY useragentswitcher.options.move.up "上へ移動">
+<!ENTITY useragentswitcher.options.reset "オプションをリセット…">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher オプション">
+<!ENTITY useragentswitcher.options.user.agents.label "ユーザエージェント">
+<!ENTITY useragentswitcher.options.view.default "デフォルトを表示…">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "Vendor:">
+<!ENTITY useragentswitcher.vendor.sub.label "Vendor Sub:">

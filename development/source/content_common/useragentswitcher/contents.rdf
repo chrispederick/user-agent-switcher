@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<RDF:Description about="urn:mozilla:package:useragentswitcher"
+	                 chrome:author="Chris Pederick"
+		               chrome:authorURL="@home.page@"
+		               chrome:description="@description@"
+		               chrome:displayName="@name@ @version@"
+		               chrome:extension="true"
+		               chrome:name="useragentswitcher"
+		               chrome:settingsURL="chrome://useragentswitcher/content/options/options.xul"/>
+  <RDF:Seq about="urn:mozilla:overlays">
+    <RDF:li resource="chrome://browser/content/browser.xul"/>
+    <RDF:li resource="chrome://navigator/content/navigator.xul"/>
+    <RDF:li resource="chrome://songbird/content/xul/layoutWithBrowserOverlay.xul"/>
+  </RDF:Seq>
+	<RDF:Seq about="urn:mozilla:package:root">
+		<RDF:li resource="urn:mozilla:package:useragentswitcher"/>
+	</RDF:Seq>
+  <RDF:Seq about="chrome://browser/content/browser.xul">
+    <RDF:li>chrome://useragentswitcher/content/useragentswitcher.xul</RDF:li>
+  </RDF:Seq>
+  <RDF:Seq about="chrome://navigator/content/navigator.xul">
+    <RDF:li>chrome://useragentswitcher/content/useragentswitcher.xul</RDF:li>
+  </RDF:Seq>
+  <RDF:Seq about="chrome://songbird/content/xul/layoutWithBrowserOverlay.xul">
+    <RDF:li>chrome://useragentswitcher/content/useragentswitcher.xul</RDF:li>
+  </RDF:Seq>
+</RDF:RDF>

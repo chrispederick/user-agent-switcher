@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Auteur">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Homepage">
+<!ENTITY useragentswitcher.about.title "Over User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "v">
+<!ENTITY useragentswitcher.about.label "Over...">
+<!ENTITY useragentswitcher.default.key "S">
+<!ENTITY useragentswitcher.default.label "Standaard">
+<!ENTITY useragentswitcher.help.label "Help...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Opties">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "Opties...">
+<!ENTITY useragentswitcher.app.name.label "App-naam:">
+<!ENTITY useragentswitcher.app.version.label "App-versie:">
+<!ENTITY useragentswitcher.description.label "Omschrijving:">
+<!ENTITY useragentswitcher.import.overwrite "Overwrite existing user agents when importing">
+<!ENTITY useragentswitcher.menu.hide "Het User Agent Switcher extra-menu verbergen">
+<!ENTITY useragentswitcher.options.add "Toevoegen...">
+<!ENTITY useragentswitcher.options.default.label "Standaard">
+<!ENTITY useragentswitcher.options.delete "Verwijderen...">
+<!ENTITY useragentswitcher.options.edit "Bewerken...">
+<!ENTITY useragentswitcher.options.export "Export...">
+<!ENTITY useragentswitcher.options.general.label "Algemeen">
+<!ENTITY useragentswitcher.options.import "Import...">
+<!ENTITY useragentswitcher.options.import.export "Import/Export">
+<!ENTITY useragentswitcher.options.move.down "Omlaag schuiven">
+<!ENTITY useragentswitcher.options.move.up "Omhoog schuiven">
+<!ENTITY useragentswitcher.options.reset "Standaardopties terugzetten...">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher opties">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agents">
+<!ENTITY useragentswitcher.options.view.default "Standaard tonen...">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "Bedrijf:">
+<!ENTITY useragentswitcher.vendor.sub.label "Bedrijf Sub:">

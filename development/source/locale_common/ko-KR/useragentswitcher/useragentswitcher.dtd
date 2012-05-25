@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "제작자">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "홈페이지">
+<!ENTITY useragentswitcher.about.title "User Agent Switcher 정보">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.label "정보...">
+<!ENTITY useragentswitcher.default.key "D">
+<!ENTITY useragentswitcher.default.label "기본값">
+<!ENTITY useragentswitcher.help.label "도움말...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "옵션">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "옵션...">
+<!ENTITY useragentswitcher.app.name.label "App 이름:">
+<!ENTITY useragentswitcher.app.version.label "App 버전:">
+<!ENTITY useragentswitcher.description.label "설명:">
+<!ENTITY useragentswitcher.import.overwrite "가져올때 기존 user agents 덮어쓰기">
+<!ENTITY useragentswitcher.menu.hide "도구 모음에서 User Agent Switcher 숨김">
+<!ENTITY useragentswitcher.options.add "추가...">
+<!ENTITY useragentswitcher.options.default.label "기본값">
+<!ENTITY useragentswitcher.options.delete "삭제...">
+<!ENTITY useragentswitcher.options.edit "수정...">
+<!ENTITY useragentswitcher.options.export "내보내기...">
+<!ENTITY useragentswitcher.options.general.label "일반">
+<!ENTITY useragentswitcher.options.import "가져오기...">
+<!ENTITY useragentswitcher.options.import.export "가져오기/내보내기">
+<!ENTITY useragentswitcher.options.move.down "아래로 이동">
+<!ENTITY useragentswitcher.options.move.up "위로 이동">
+<!ENTITY useragentswitcher.options.reset "옵션 초기화...">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher 옵션">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agents">
+<!ENTITY useragentswitcher.options.view.default "기본값 보기...">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.vendor.label "공급자:">
+<!ENTITY useragentswitcher.vendor.sub.label "하위 공급자:">

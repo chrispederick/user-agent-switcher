@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "Кориснички Агент">
+<!ENTITY useragentswitcher.name "Променувач на кориснички агент">
+<!ENTITY useragentswitcher.about.author "Автор">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Домашна страница">
+<!ENTITY useragentswitcher.about.title "За променувачот на кориснички агент">
+<!ENTITY useragentswitcher.about.key "З">
+<!ENTITY useragentswitcher.about.label "За...">
+<!ENTITY useragentswitcher.default.key "О">
+<!ENTITY useragentswitcher.default.label "Основен">
+<!ENTITY useragentswitcher.help.label "Помош...">
+<!ENTITY useragentswitcher.help.key "П">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Опции">
+<!ENTITY useragentswitcher.options.menu.key "И">
+<!ENTITY useragentswitcher.options.menu.label "Опции...">
+<!ENTITY useragentswitcher.app.name.label "Име:">
+<!ENTITY useragentswitcher.app.version.label "Верзија:">
+<!ENTITY useragentswitcher.description.label "Објаснение:">
+<!ENTITY useragentswitcher.import.overwrite "При внесување презапиши ги постоешките кориснички агенти">
+<!ENTITY useragentswitcher.menu.hide "Скриј го менито за промена на кориснички агент">
+<!ENTITY useragentswitcher.options.add "Додај...">
+<!ENTITY useragentswitcher.options.default.label "Основно">
+<!ENTITY useragentswitcher.options.delete "Избриши...">
+<!ENTITY useragentswitcher.options.edit "Измени...">
+<!ENTITY useragentswitcher.options.export "Извеси...">
+<!ENTITY useragentswitcher.options.general.label "Општо">
+<!ENTITY useragentswitcher.options.import "Внеси...">
+<!ENTITY useragentswitcher.options.import.export "Внесување/Извезување">
+<!ENTITY useragentswitcher.options.move.down "Надолу">
+<!ENTITY useragentswitcher.options.move.up "Нагоре">
+<!ENTITY useragentswitcher.options.reset "Опции за враќање...">
+<!ENTITY useragentswitcher.options.title "Опции на променувачот на кориснички агент">
+<!ENTITY useragentswitcher.options.user.agents.label "Кор. агенти">
+<!ENTITY useragentswitcher.options.view.default "Погледи го основниот...">
+<!ENTITY useragentswitcher.platform.label "Платформа:">
+<!ENTITY useragentswitcher.user.agent.label "Кориснички агент:">
+<!ENTITY useragentswitcher.vendor.label "Произведувач:">
+<!ENTITY useragentswitcher.vendor.sub.label "Под-Произведувач:">

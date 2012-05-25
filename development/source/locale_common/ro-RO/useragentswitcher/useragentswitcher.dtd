@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "Agent Utilizator">
+<!ENTITY useragentswitcher.name "Comutator Agent Utilizator">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Data versiunii">
+<!ENTITY useragentswitcher.about.home.page "Pagina oficiala">
+<!ENTITY useragentswitcher.about.title "Despre Comutatorul Agent Utilizator">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.label "Despre...">
+<!ENTITY useragentswitcher.default.key "D">
+<!ENTITY useragentswitcher.default.label "Implicit">
+<!ENTITY useragentswitcher.help.label "Ajutor...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Optiuni">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "Optiuni...">
+<!ENTITY useragentswitcher.app.name.label "Nume apl:">
+<!ENTITY useragentswitcher.app.version.label "Versiune apl.">
+<!ENTITY useragentswitcher.description.label "Descriere:">
+<!ENTITY useragentswitcher.import.overwrite "Suprascrie agentii utilizator la importare">
+<!ENTITY useragentswitcher.menu.hide "Ascunde meniul de unelte al Comutatorului Agent Utilizator">
+<!ENTITY useragentswitcher.options.add "Adauga...">
+<!ENTITY useragentswitcher.options.default.label "Implicit">
+<!ENTITY useragentswitcher.options.delete "Sterge...">
+<!ENTITY useragentswitcher.options.edit "Editeaza...">
+<!ENTITY useragentswitcher.options.export "Exporta...">
+<!ENTITY useragentswitcher.options.general.label "General">
+<!ENTITY useragentswitcher.options.import "Importa...">
+<!ENTITY useragentswitcher.options.import.export "Import/Export">
+<!ENTITY useragentswitcher.options.move.down "Muta jos">
+<!ENTITY useragentswitcher.options.move.up "Muta sus">
+<!ENTITY useragentswitcher.options.reset "Optiuni reinitializare...">
+<!ENTITY useragentswitcher.options.title "Optiuni Comutator Agent Utilizator">
+<!ENTITY useragentswitcher.options.user.agents.label "Agenti Utilizator">
+<!ENTITY useragentswitcher.options.view.default "Vezi implicit...">
+<!ENTITY useragentswitcher.platform.label "Platforma:">
+<!ENTITY useragentswitcher.user.agent.label "Agent utilizator:">
+<!ENTITY useragentswitcher.vendor.label "Ofertant:">
+<!ENTITY useragentswitcher.vendor.sub.label "Ofertant sub:">

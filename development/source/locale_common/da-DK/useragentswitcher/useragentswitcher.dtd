@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "Brugeragent">
+<!ENTITY useragentswitcher.name "Brugeragent-Skifter">
+<!ENTITY useragentswitcher.about.author "Forfatter">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Hjemmeside">
+<!ENTITY useragentswitcher.about.title "Om Brugeragent-Skifter">
+<!ENTITY useragentswitcher.about.key "O">
+<!ENTITY useragentswitcher.about.label "Om...">
+<!ENTITY useragentswitcher.default.key "d">
+<!ENTITY useragentswitcher.default.label "Standard">
+<!ENTITY useragentswitcher.help.label "Hjælp...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "I">
+<!ENTITY useragentswitcher.options.label "Indstillinger">
+<!ENTITY useragentswitcher.options.menu.key "I">
+<!ENTITY useragentswitcher.options.menu.label "Indstillinger...">
+<!ENTITY useragentswitcher.app.name.label "App navn:">
+<!ENTITY useragentswitcher.app.version.label "App version:">
+<!ENTITY useragentswitcher.description.label "Beskrivelse">
+<!ENTITY useragentswitcher.import.overwrite "Overskriv eksisterende brugeragenter ved import">
+<!ENTITY useragentswitcher.menu.hide "Skjul Brugeragent-Skifter værktøjer-menu">
+<!ENTITY useragentswitcher.options.add "Tilføj...">
+<!ENTITY useragentswitcher.options.default.label "Standard">
+<!ENTITY useragentswitcher.options.delete "Slet...">
+<!ENTITY useragentswitcher.options.edit "Rediger...">
+<!ENTITY useragentswitcher.options.export "Eksporter...">
+<!ENTITY useragentswitcher.options.general.label "Generel">
+<!ENTITY useragentswitcher.options.import "Importer...">
+<!ENTITY useragentswitcher.options.import.export "Import/Eksport">
+<!ENTITY useragentswitcher.options.move.down "Flyt ned">
+<!ENTITY useragentswitcher.options.move.up "Flyt op">
+<!ENTITY useragentswitcher.options.reset "Nulstil indstillinger...">
+<!ENTITY useragentswitcher.options.title "Brugeragent-Skifter indstillinger">
+<!ENTITY useragentswitcher.options.user.agents.label "Brugeragenter">
+<!ENTITY useragentswitcher.options.view.default "Vis standard...">
+<!ENTITY useragentswitcher.platform.label "Platform:">
+<!ENTITY useragentswitcher.user.agent.label "Brugeragent:">
+<!ENTITY useragentswitcher.vendor.label "Leverandør:">
+<!ENTITY useragentswitcher.vendor.sub.label "Underleverandør:">

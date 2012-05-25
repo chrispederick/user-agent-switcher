@@ -1,0 +1,50 @@
+<!ENTITY useragentswitcher.about "About...">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.title "About User Agent Switcher">
+<!ENTITY useragentswitcher.app.code.name "App Code Name:">
+<!ENTITY useragentswitcher.app.name "App Name:">
+<!ENTITY useragentswitcher.app.version "App Version:">
+<!ENTITY useragentswitcher.author "Author">
+<!ENTITY useragentswitcher.build.date "Build Date">
+<!ENTITY useragentswitcher.copy "Copy">
+<!ENTITY useragentswitcher.cut "Cut">
+<!ENTITY useragentswitcher.default.user.agent "Default User Agent">
+<!ENTITY useragentswitcher.default.user.agent.key "D">
+<!ENTITY useragentswitcher.delete "Delete...">
+<!ENTITY useragentswitcher.description "Description:">
+<!ENTITY useragentswitcher.download.user.agents "Download lists of user agents to import...">
+<!ENTITY useragentswitcher.edit "Edit...">
+<!ENTITY useragentswitcher.edit.user.agents "Edit User Agents...">
+<!ENTITY useragentswitcher.edit.user.agents.key "E">
+<!ENTITY useragentswitcher.export "Export...">
+<!ENTITY useragentswitcher.general "General">
+<!ENTITY useragentswitcher.help "Help...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.home.page "Home Page">
+<!ENTITY useragentswitcher.import "Import...">
+<!ENTITY useragentswitcher.import.export "Import/Export">
+<!ENTITY useragentswitcher.import.overwrite "Overwrite existing user agents when importing">
+<!ENTITY useragentswitcher.menu.hide "Hide the User Agent Switcher Tools menu">
+<!ENTITY useragentswitcher.move.down "Move Down">
+<!ENTITY useragentswitcher.move.up "Move Up">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.name.key "U">
+<!ENTITY useragentswitcher.name.label "Name:">
+<!ENTITY useragentswitcher.new "New">
+<!ENTITY useragentswitcher.new.folder "New Folder...">
+<!ENTITY useragentswitcher.new.separator "New Separator">
+<!ENTITY useragentswitcher.new.user.agent "New User Agent...">
+<!ENTITY useragentswitcher.new.user.agent.description "The default user agent values are displayed below. Add a description and edit any of the values to create a new user agent.">
+<!ENTITY useragentswitcher.options "Options...">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher Options">
+<!ENTITY useragentswitcher.paste "Paste">
+<!ENTITY useragentswitcher.platform "Platform:">
+<!ENTITY useragentswitcher.reset.options "Reset Options...">
+<!ENTITY useragentswitcher.test "Test...">
+<!ENTITY useragentswitcher.test.key "T">
+<!ENTITY useragentswitcher.user.agent "User Agent">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.user.agents "User Agents">
+<!ENTITY useragentswitcher.vendor "Vendor:">
+<!ENTITY useragentswitcher.vendor.sub "Vendor Sub:">

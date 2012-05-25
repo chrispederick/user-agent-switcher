@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+    <RDF:Seq about="urn:mozilla:locale:root">
+        <RDF:li resource="urn:mozilla:locale:fi-FI"/>
+    </RDF:Seq>
+    <RDF:Description about="urn:mozilla:locale:fi-FI"
+                     chrome:author="Chris Pederick"
+                     chrome:displayName="Suomenkielinen(FI)"
+                     chrome:name="fi-FI">
+        <chrome:packages>
+            <RDF:Seq about="urn:mozilla:locale:fi-FI:packages">
+                <RDF:li resource="urn:mozilla:locale:fi-FI:useragentswitcher"/>
+            </RDF:Seq>
+        </chrome:packages>
+    </RDF:Description>
+</RDF:RDF>

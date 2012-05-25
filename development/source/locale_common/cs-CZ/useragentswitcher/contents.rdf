@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<RDF:RDF xmlns:chrome="http://www.mozilla.org/rdf/chrome#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<!-- translation by Josef Kotva (kotvajosef@gmail.com) --> 
+    <RDF:Seq about="urn:mozilla:locale:root">
+        <RDF:li resource="urn:mozilla:locale:cs-CZ"/>
+    </RDF:Seq>
+    <RDF:Description about="urn:mozilla:locale:cs-CZ"
+                     chrome:author="Josef Kotva"
+                     chrome:displayName="Czech(CZ)"
+                     chrome:name="cs-CZ">
+        <chrome:packages>
+            <RDF:Seq about="urn:mozilla:locale:cs-CZ:packages">
+                <RDF:li resource="urn:mozilla:locale:cs-CZ:useragentswitcher"/>
+            </RDF:Seq>
+        </chrome:packages>
+    </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "סוכן משתמש">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "יוצר">
+<!ENTITY useragentswitcher.about.build.date "תאריך בנייה">
+<!ENTITY useragentswitcher.about.home.page "דף בית">
+<!ENTITY useragentswitcher.about.title "אודות User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.label "אודות...">
+<!ENTITY useragentswitcher.default.key "D">
+<!ENTITY useragentswitcher.default.label "ברירת מחדל">
+<!ENTITY useragentswitcher.help.label "עזרה...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "אפשרויות">
+<!ENTITY useragentswitcher.options.menu.key "O">
+<!ENTITY useragentswitcher.options.menu.label "אפשרויות...">
+<!ENTITY useragentswitcher.app.name.label "שם יישום:">
+<!ENTITY useragentswitcher.app.version.label "גירסאת יישום:">
+<!ENTITY useragentswitcher.description.label "תיאור:">
+<!ENTITY useragentswitcher.import.overwrite "דרוס סוכני משתמשים ישנים כאשר מייבאים">
+<!ENTITY useragentswitcher.menu.hide "החבא את User Agent Switcher מתפריט הכלים">
+<!ENTITY useragentswitcher.options.add "הוסף...">
+<!ENTITY useragentswitcher.options.default.label "ברירת מחדל">
+<!ENTITY useragentswitcher.options.delete "מחק...">
+<!ENTITY useragentswitcher.options.edit "ערוך...">
+<!ENTITY useragentswitcher.options.export "ייצא...">
+<!ENTITY useragentswitcher.options.general.label "כללי">
+<!ENTITY useragentswitcher.options.import "ייבא...">
+<!ENTITY useragentswitcher.options.import.export "ייבא\ייצא">
+<!ENTITY useragentswitcher.options.move.down "הזז מטה">
+<!ENTITY useragentswitcher.options.move.up "הזז מעלה">
+<!ENTITY useragentswitcher.options.reset "אפס אפשרויות...">
+<!ENTITY useragentswitcher.options.title "אפשרויות User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "סוכן משתמש">
+<!ENTITY useragentswitcher.options.view.default "הצג ברירת מחדל...">
+<!ENTITY useragentswitcher.platform.label "פלטפורמה (מערכת הפעלה):">
+<!ENTITY useragentswitcher.user.agent.label "סוכן משתמש:">
+<!ENTITY useragentswitcher.vendor.label "מוכר:">
+<!ENTITY useragentswitcher.vendor.sub.label "מוכר משני:">

@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "Agente de usuario">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "P&#225;gina de inicio">
+<!ENTITY useragentswitcher.about.title "Acerca de User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.label "Acerca de...">
+<!ENTITY useragentswitcher.default.key "d">
+<!ENTITY useragentswitcher.default.label "Por defecto">
+<!ENTITY useragentswitcher.help.label "Ayuda...">
+<!ENTITY useragentswitcher.help.key "u">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.label "Opciones">
+<!ENTITY useragentswitcher.options.menu.key "P">
+<!ENTITY useragentswitcher.options.menu.label "Preferencias...">
+<!ENTITY useragentswitcher.app.name.label "Aplicaci&#243;n:">
+<!ENTITY useragentswitcher.app.version.label "Versi&#243;n:">
+<!ENTITY useragentswitcher.description.label "Etiqueta:">
+<!ENTITY useragentswitcher.import.overwrite "Overwrite existing user agents when importing">
+<!ENTITY useragentswitcher.menu.hide "Ocultar &#237;tem en el men&#250; de herramientas">
+<!ENTITY useragentswitcher.options.add "A&#241;adir...">
+<!ENTITY useragentswitcher.options.default.label "Por defecto">
+<!ENTITY useragentswitcher.options.delete "Eliminar...">
+<!ENTITY useragentswitcher.options.edit "Editar...">
+<!ENTITY useragentswitcher.options.export "Export...">
+<!ENTITY useragentswitcher.options.general.label "General">
+<!ENTITY useragentswitcher.options.import "Import...">
+<!ENTITY useragentswitcher.options.import.export "Import/Export">
+<!ENTITY useragentswitcher.options.move.down "Devaluar">
+<!ENTITY useragentswitcher.options.move.up "Ensalzar">
+<!ENTITY useragentswitcher.options.reset "Restaurar">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "Agentes">
+<!ENTITY useragentswitcher.options.view.default "Acerca del agente por defecto...">
+<!ENTITY useragentswitcher.platform.label "Plataforma:">
+<!ENTITY useragentswitcher.user.agent.label "Agente:">
+<!ENTITY useragentswitcher.vendor.label "Proveedor:">
+<!ENTITY useragentswitcher.vendor.sub.label "Referencia:">

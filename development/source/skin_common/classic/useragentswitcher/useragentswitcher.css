@@ -1,0 +1,13 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Main button */
+
+#useragentswitcher-button
+{
+  list-style-image: url("chrome://useragentswitcher/skin/default.png");
+}
+
+#useragentswitcher-button[default="false"]
+{
+  list-style-image: url("chrome://useragentswitcher/skin/non-default.png");
+}

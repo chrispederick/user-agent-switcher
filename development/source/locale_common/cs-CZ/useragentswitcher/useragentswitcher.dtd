@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "A">
+<!ENTITY useragentswitcher.label "User Agent">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.about.author "Autor">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Domovská stránka">
+<!ENTITY useragentswitcher.about.title "O rozšíření User Agent Switcher">
+<!ENTITY useragentswitcher.about.key "O">
+<!ENTITY useragentswitcher.about.label "O aplikaci">
+<!ENTITY useragentswitcher.default.key "V">
+<!ENTITY useragentswitcher.default.label "Výchozí">
+<!ENTITY useragentswitcher.help.label "Nápověda">
+<!ENTITY useragentswitcher.help.key "V">
+<!ENTITY useragentswitcher.options.key "M">
+<!ENTITY useragentswitcher.options.label "Možnosti">
+<!ENTITY useragentswitcher.options.menu.key "N">
+<!ENTITY useragentswitcher.options.menu.label "Nastavení">
+<!ENTITY useragentswitcher.app.name.label "Název aplikace:">
+<!ENTITY useragentswitcher.app.version.label "Verze aplikace:">
+<!ENTITY useragentswitcher.description.label "Popis:">
+<!ENTITY useragentswitcher.import.overwrite "Přepsat importem stávající nastavení">
+<!ENTITY useragentswitcher.menu.hide "Skrýt nabídku rozšíření User Agent Switcher">
+<!ENTITY useragentswitcher.options.add "Přidat">
+<!ENTITY useragentswitcher.options.default.label "Výchozí">
+<!ENTITY useragentswitcher.options.delete "Smazat">
+<!ENTITY useragentswitcher.options.edit "Editovat">
+<!ENTITY useragentswitcher.options.export "Export">
+<!ENTITY useragentswitcher.options.general.label "Hlavní">
+<!ENTITY useragentswitcher.options.import "Import">
+<!ENTITY useragentswitcher.options.import.export "Import/Export">
+<!ENTITY useragentswitcher.options.move.down "Posun dolů">
+<!ENTITY useragentswitcher.options.move.up "Posun nahoru">
+<!ENTITY useragentswitcher.options.reset "Původní nastavení">
+<!ENTITY useragentswitcher.options.title "Možnosti rozšíření User Agent Switcher">
+<!ENTITY useragentswitcher.options.user.agents.label "Prohlížeče">
+<!ENTITY useragentswitcher.options.view.default "Zobrazit výchozí">
+<!ENTITY useragentswitcher.platform.label "Operační systém:">
+<!ENTITY useragentswitcher.user.agent.label "Identifikátor prohlížeče:">
+<!ENTITY useragentswitcher.vendor.label "Distribuce:">
+<!ENTITY useragentswitcher.vendor.sub.label "Údaje o distribuci:">

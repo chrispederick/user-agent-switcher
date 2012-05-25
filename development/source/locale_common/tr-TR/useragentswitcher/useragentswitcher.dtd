@@ -1,0 +1,40 @@
+<!ENTITY useragentswitcher.key "Y">
+<!ENTITY useragentswitcher.label "Yazılım ismi">
+<!ENTITY useragentswitcher.name "User Agent Switcher (sitelere gösterilen ismi değiştirici)">
+<!ENTITY useragentswitcher.about.author "Geliştirici">
+<!ENTITY useragentswitcher.about.build.date "Build Date">
+<!ENTITY useragentswitcher.about.home.page "Web sitesi">
+<!ENTITY useragentswitcher.about.title "User Agent Switcher hakkında">
+<!ENTITY useragentswitcher.about.key "H">
+<!ENTITY useragentswitcher.about.label "Hakkında…">
+<!ENTITY useragentswitcher.default.key "T">
+<!ENTITY useragentswitcher.default.label "Temel isim">
+<!ENTITY useragentswitcher.help.label "Yardım…">
+<!ENTITY useragentswitcher.help.key "Y">
+<!ENTITY useragentswitcher.options.key "S">
+<!ENTITY useragentswitcher.options.label "Seçenekler">
+<!ENTITY useragentswitcher.options.menu.key "S">
+<!ENTITY useragentswitcher.options.menu.label "Seçenekler…">
+<!ENTITY useragentswitcher.app.name.label "App Name (yazılım ismi)&#160;:">
+<!ENTITY useragentswitcher.app.version.label "App Version (yazılımın sürümü):">
+<!ENTITY useragentswitcher.description.label "Özeti&#160;:">
+<!ENTITY useragentswitcher.import.overwrite "Halihazırda bulunan yazılım isimlerini yenilerini alırken sil">
+<!ENTITY useragentswitcher.menu.hide "Eklenti araçlar menüsünde gösterilmesin">
+<!ENTITY useragentswitcher.options.add "Ekle…">
+<!ENTITY useragentswitcher.options.default.label "Temel kurulum">
+<!ENTITY useragentswitcher.options.delete "Kaldır…">
+<!ENTITY useragentswitcher.options.edit "Düzenle…">
+<!ENTITY useragentswitcher.options.export "Dışa aktar…">
+<!ENTITY useragentswitcher.options.general.label "Genel">
+<!ENTITY useragentswitcher.options.import "İçe aktar…">
+<!ENTITY useragentswitcher.options.import.export "İçe/Dışa aktar">
+<!ENTITY useragentswitcher.options.move.down "Aşağıya">
+<!ENTITY useragentswitcher.options.move.up "Yukarıya">
+<!ENTITY useragentswitcher.options.reset "Seçenekleri ilk hâline çevir (sıfırla)…">
+<!ENTITY useragentswitcher.options.title "User Agent Switcher seçenekleri">
+<!ENTITY useragentswitcher.options.user.agents.label "User Agent string (yazılım ismi)">
+<!ENTITY useragentswitcher.options.view.default "Temel seçenekleri göster…">
+<!ENTITY useragentswitcher.platform.label "Platform&#160;:">
+<!ENTITY useragentswitcher.user.agent.label "Yazılım (User Agent) isimleri&#160;:">
+<!ENTITY useragentswitcher.vendor.label "Vendor (Piyasaya süren)&#160;:">
+<!ENTITY useragentswitcher.vendor.sub.label "Piyasaya süren (ek)Sub&#160;:">

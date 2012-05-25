@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://useragentswitcher/content/about/about.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://useragentswitcher/locale/useragentswitcher.dtd">
+
+<dialog buttons="accept"
+        id="useragentswitcher-about-dialog"
+        title="&useragentswitcher.about.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script src="chrome://useragentswitcher/content/about/about.js" type="application/x-javascript"/>
+
+  <vbox id="useragentswitcher-about-details">
+    <hbox>
+      <description class="name">@name@</description>
+      <description class="name">@version@</description>
+    </hbox>
+    <description class="title">&useragentswitcher.build.date;</description>
+    <description class="date">@build.date@</description>
+    <description class="title">&useragentswitcher.author;</description>
+    <description>Chris Pederick</description>
+    <description onclick="UserAgentSwitcherAbout.openURL(this)" class="url">@home.page@</description>
+  </vbox>
+  <separator class="groove"/>
+</dialog>

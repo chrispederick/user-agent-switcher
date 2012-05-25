@@ -1,0 +1,61 @@
+@import url("chrome://global/skin/");
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+description
+{
+  margin-left: 0;
+}
+
+separator, #useragentswitcher-about-dialog
+{
+  margin: 0;
+  padding: 0;
+}
+
+#useragentswitcher-about-details
+{
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5em;
+}
+
+#useragentswitcher-about-details hbox
+{
+  background-image: url("chrome://useragentswitcher/content/logo.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  min-height: 35px;
+  padding-right: 35px;
+}
+
+.date
+{
+  color: #999999;
+}
+
+.name
+{
+  font-size: x-large;
+  padding-right: 0.25em;
+}
+
+.name, .title
+{
+  font-weight: bold;
+}
+
+.title
+{
+  padding-top: 0.25em;
+}
+
+.url
+{
+  color: #0000ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.url:hover
+{
+  color: #ff0000;
+}

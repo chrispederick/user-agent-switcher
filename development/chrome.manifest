@@ -1,0 +1,10 @@
+content	useragentswitcher	                         			           jar:chrome/useragentswitcher.jar!/content/useragentswitcher/
+locale	useragentswitcher en-US	                     			         jar:chrome/useragentswitcher.jar!/locale/en-US/useragentswitcher/
+overlay	chrome://browser/content/browser.xul	     			           chrome://useragentswitcher/content/useragentswitcher.xul
+overlay	chrome://navigator/content/navigator.xul     			         chrome://useragentswitcher/content/useragentswitcher.xul
+overlay chrome://songbird/content/xul/layoutWithBrowserOverlay.xul chrome://useragentswitcher/content/useragentswitcher.xul
+skin	useragentswitcher classic/1.0                			   				 jar:chrome/useragentswitcher.jar!/skin/classic/useragentswitcher/
+style	chrome://browser/content/browser.xul	     			             chrome://useragentswitcher/skin/useragentswitcher.css
+style	chrome://global/content/customizeToolbar.xul 			           chrome://useragentswitcher/skin/useragentswitcher.css
+style	chrome://navigator/content/navigator.xul     			           chrome://useragentswitcher/skin/useragentswitcher.css
+style	chrome://songbird/content/xul/layoutWithBrowserOverlay.xul   chrome://useragentswitcher/skin/useragentswitcher.css

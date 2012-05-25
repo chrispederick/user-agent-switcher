@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+
+<project name="user-agent-switcher" default="build">
+  <!-- Main targets -->
+  <target name="all" depends="build,test" description="Build and test"/>
+
+  <!-- Initialize settings -->
+  <target name="init" description="Initialize settings">
+    <tstamp>
+      <format pattern="MMMM d, yyyy" property="build.date"/>
+    </tstamp>
+    <filterset id="common.filters">
+      <filter token="build.date" value="${build.date}"/>
+      <filtersfile file="config.properties"/>
+    </filterset>
+  </target>
+
+  <!-- Build -->
+  <target name="build" depends="init" description="Build">
+    <echo level="info" message="Cleaning up the previous build"/>
+    <delete dir="chrome"/>
+    <delete file="install.js"/>
+    <delete file="install.rdf"/>
+    <delete file="builds/user-agent-switcher.xpi"/>
+    <echo level="info" message="Creating extension structure"/>
+    <copy todir="chrome/content">
+      <fileset dir="source/content_common">
+        <exclude name="**/*.png"/>
+      </fileset>
+      <filterset refid="common.filters"/>
+    </copy>
+    <copy todir="chrome/content">
+      <fileset dir="source/content_common">
+        <include name="**/*.png"/>
+      </fileset>
+    </copy>
+    <copy todir="chrome/locale/en-US">
+      <fileset dir="source/locale_common/en-US"/>
+    </copy>
+    <!--copy todir="chrome/locale">
+      <fileset dir="source/locale_common"/>
+    </copy-->
+    <copy todir="chrome/skin">
+      <fileset dir="source/skin_common"/>
+    </copy>
+    <echo level="info" message="Compressing extension code"/>
+    <zip compress="false" destfile="chrome/useragentswitcher.jar">
+      <zipfileset dir="chrome"/>
+    </zip>
+    <delete dir="chrome/content"/>
+    <delete dir="chrome/locale"/>
+    <delete dir="chrome/skin"/>
+    <echo level="info" message="Building extension file"/>
+    <copy file="common_install.js" tofile="install.js">
+      <filterset refid="common.filters"/>
+    </copy>
+    <copy file="common_install.rdf" tofile="install.rdf">
+      <filterset refid="common.filters"/>
+    </copy>
+    <zip destfile="builds/user-agent-switcher.xpi">
+      <zipfileset dir="chrome" prefix="chrome"/>
+      <zipfileset file="chrome.manifest"/>
+      <zipfileset file="install.js"/>
+      <zipfileset file="install.rdf"/>
+      <zipfileset file="license.txt"/>
+    </zip>
+    <echo level="info" message="Cleaning up the build"/>
+    <delete dir="chrome"/>
+    <delete file="install.js"/>
+    <delete file="install.rdf"/>
+  </target>
+
+  <!-- Test -->
+  <target name="test" depends="init" description="Test">
+    <echo level="info" message="Cleaning up the previous build"/>
+    <delete dir="chrome"/>
+    <delete file="install.js"/>
+    <delete file="install.rdf"/>
+    <delete file="builds/user-agent-switcher-test.xpi"/>
+    <echo level="info" message="Creating extension structure"/>
+    <copy todir="chrome/content">
+      <fileset dir="source/content_common">
+        <exclude name="**/*.png"/>
+      </fileset>
+      <filterset refid="common.filters"/>
+    </copy>
+    <copy todir="chrome/content">
+      <fileset dir="source/content_common">
+        <include name="**/*.png"/>
+      </fileset>
+    </copy>
+    <copy todir="chrome/locale/en-US">
+      <fileset dir="source/locale_common/hu-HU"/>
+    </copy>
+    <copy todir="chrome/skin">
+      <fileset dir="source/skin_common"/>
+    </copy>
+    <echo level="info" message="Compressing extension code"/>
+    <zip compress="false" destfile="chrome/useragentswitcher.jar">
+      <zipfileset dir="chrome"/>
+    </zip>
+    <delete dir="chrome/content"/>
+    <delete dir="chrome/locale"/>
+    <delete dir="chrome/skin"/>
+    <echo level="info" message="Building extension file"/>
+    <copy file="common_install.js" tofile="install.js">
+      <filterset refid="common.filters"/>
+    </copy>
+    <copy file="common_install.rdf" tofile="install.rdf">
+      <filterset refid="common.filters"/>
+    </copy>
+    <zip destfile="builds/user-agent-switcher-test.xpi">
+      <zipfileset dir="chrome" prefix="chrome"/>
+      <zipfileset file="chrome.manifest"/>
+      <zipfileset file="install.js"/>
+      <zipfileset file="install.rdf"/>
+      <zipfileset file="license.txt"/>
+    </zip>
+    <echo level="info" message="Cleaning up the build"/>
+    <delete dir="chrome"/>
+    <delete file="install.js"/>
+    <delete file="install.rdf"/>
+  </target>
+</project>
