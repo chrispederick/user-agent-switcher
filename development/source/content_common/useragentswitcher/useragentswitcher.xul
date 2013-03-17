@@ -6,7 +6,7 @@
 <overlay id="useragentswitcher"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-	<script src="chrome://global/content/nsDragAndDrop.js" type="application/x-javascript"/>
+  <script src="chrome://global/content/nsDragAndDrop.js" type="application/x-javascript"/>
   <script src="chrome://useragentswitcher/content/common/array.js" type="application/x-javascript"/>
   <script src="chrome://useragentswitcher/content/common/dom.js" type="application/x-javascript"/>
   <script src="chrome://useragentswitcher/content/common/log.js" type="application/x-javascript"/>
