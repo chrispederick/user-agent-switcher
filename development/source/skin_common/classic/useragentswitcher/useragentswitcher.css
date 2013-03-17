@@ -5,9 +5,11 @@
 #useragentswitcher-button
 {
   list-style-image: url("chrome://useragentswitcher/skin/default.png");
+  -moz-box-orient: horizontal;
 }
 
 #useragentswitcher-button[default="false"]
 {
   list-style-image: url("chrome://useragentswitcher/skin/non-default.png");
+  -moz-box-orient: horizontal;
 }
