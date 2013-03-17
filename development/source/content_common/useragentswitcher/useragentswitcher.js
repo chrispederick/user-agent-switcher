@@ -93,12 +93,12 @@ var UserAgentSwitcher =
 	// Return the supported flavours
 	getSupportedFlavours: function() 
 	{
-  	var flavourSet = new FlavourSet();
+	var flavourSet = new FlavourSet();
 
-    flavourSet.appendFlavour("text/toolbarwrapper-id/" + document.documentElement.id);
+	flavourSet.appendFlavour("text/toolbarwrapper-id/" + document.documentElement.id);
 
-  	return flavourSet;
- 	},
+	return flavourSet;
+	},
    
 	// Opens the help
 	help: function()
@@ -179,7 +179,7 @@ var UserAgentSwitcher =
 		if((UserAgentSwitcherPreferences.getStringPreference("general.useragent.appName", true) == userAgent.getAttribute("useragentswitcherappcodename") || (UserAgentSwitcherPreferences.getStringPreference("general.useragent.appName", true) == " " && userAgent.getAttribute("useragentswitcherappcodename") == "")) &&	
 			  UserAgentSwitcherPreferences.getStringPreference("general.appname.override", true) == userAgent.getAttribute("useragentswitcherappname") &&
 			  UserAgentSwitcherPreferences.getStringPreference("general.appversion.override", true) == userAgent.getAttribute("useragentswitcherappversion") &&
-		 	  UserAgentSwitcherPreferences.getStringPreference("general.platform.override", true) == userAgent.getAttribute("useragentswitcherplatform") &&
+			  UserAgentSwitcherPreferences.getStringPreference("general.platform.override", true) == userAgent.getAttribute("useragentswitcherplatform") &&
 			  UserAgentSwitcherPreferences.getStringPreference("general.useragent.override", true) == userAgent.getAttribute("useragentswitcheruseragent") &&
 			  UserAgentSwitcherPreferences.getStringPreference("general.useragent.vendor", true) == userAgent.getAttribute("useragentswitchervendor") &&
 			  UserAgentSwitcherPreferences.getStringPreference("general.useragent.vendorSub", true) == userAgent.getAttribute("useragentswitchervendorsub"))
@@ -206,11 +206,11 @@ var UserAgentSwitcher =
 	onDrop: function (event, transferData, session) 
 	{
 		// If the User Agent Switcher button was dropped
-  	if(transferData.data == "useragentswitcher-button")
-  	{
+	if(transferData.data == "useragentswitcher-button")
+	{
 			UserAgentSwitcherImporter.import(UserAgentSwitcherImporter.importTypeMenu, UserAgentSwitcherImporter.getUserAgentFileLocation(), true);
 			UserAgentSwitcher.initializeDisplay();    		
-  	}
+	}
 	},
 	
 	// Opens a toolbar button automatically if another toolbar button is open on the toolbar
@@ -376,11 +376,11 @@ var UserAgentSwitcher =
 		{
 			userAgentMenu.setAttribute("image", "chrome://useragentswitcher/skin/non-default.png");
 
-			// If the selected user agent description is set			
-			if(selectedUserAgentDescription)
-			{
-				userAgentMenu.setAttribute("label", selectedUserAgentDescription);
-			}
+			//// If the selected user agent description is set			
+			//if(selectedUserAgentDescription)
+			//{
+			//	userAgentMenu.setAttribute("label", selectedUserAgentDescription);
+			//}
 		}
 
 		// If the user agent button is set
