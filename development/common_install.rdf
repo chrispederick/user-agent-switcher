@@ -17,6 +17,7 @@
     <em:file>
       <Description about="urn:mozilla:extension:file:useragentswitcher.jar">
         <em:locale>locale/en-US/useragentswitcher/</em:locale>
+        <em:locale>locale/es-ES/useragentswitcher/</em:locale>
         <em:package>content/useragentswitcher/</em:package>
         <em:skin>skin/classic/useragentswitcher/</em:skin>
       </Description>
