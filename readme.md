@@ -33,6 +33,13 @@ To report a new issue or suggest a new feature please post in the forums:
 
 * Forums: [http://forums.chrispederick.com/](http://forums.chrispederick.com/)
 
+Acknowledgements
+----------------
+
+Supported by:
+
+* [BrowserStack](https://www.browserstack.com/)
+
 Author
 ------
 
