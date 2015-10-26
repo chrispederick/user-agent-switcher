@@ -31,6 +31,7 @@ if(error == SUCCESS)
 
   registerChrome(contentFlag, folder, "content/" + name + "/");
   registerChrome(localeFlag, folder, "locale/en-US/" + name + "/");
+  registerChrome(localeFlag, folder, "locale/es-ES/" + name + "/");
   registerChrome(skinFlag, folder, "skin/classic/" + name + "/");
 
   error = performInstall();
