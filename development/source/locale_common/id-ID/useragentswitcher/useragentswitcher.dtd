@@ -1,0 +1,50 @@
+<!ENTITY useragentswitcher.about "Tentang...">
+<!ENTITY useragentswitcher.about.key "A">
+<!ENTITY useragentswitcher.about.title "Tentang User Agent Switcher">
+<!ENTITY useragentswitcher.app.code.name "App Code Name:">
+<!ENTITY useragentswitcher.app.name "App Name:">
+<!ENTITY useragentswitcher.app.version "App Version:">
+<!ENTITY useragentswitcher.author "Author">
+<!ENTITY useragentswitcher.build.date "Tanggal dibuat">
+<!ENTITY useragentswitcher.copy "Salin">
+<!ENTITY useragentswitcher.cut "Potong">
+<!ENTITY useragentswitcher.default.user.agent "Default User Agent">
+<!ENTITY useragentswitcher.default.user.agent.key "D">
+<!ENTITY useragentswitcher.delete "Hapus...">
+<!ENTITY useragentswitcher.description "Deskripsi:">
+<!ENTITY useragentswitcher.download.user.agents "Unduh daftar user agen untuk diimpor...">
+<!ENTITY useragentswitcher.edit "Edit...">
+<!ENTITY useragentswitcher.edit.user.agents "Edit User Agents...">
+<!ENTITY useragentswitcher.edit.user.agents.key "E">
+<!ENTITY useragentswitcher.export "Ekspor...">
+<!ENTITY useragentswitcher.general "Umum">
+<!ENTITY useragentswitcher.help "Bantuan...">
+<!ENTITY useragentswitcher.help.key "H">
+<!ENTITY useragentswitcher.home.page "Home Page">
+<!ENTITY useragentswitcher.import "Impor...">
+<!ENTITY useragentswitcher.import.export "Impor/Ekspor">
+<!ENTITY useragentswitcher.import.overwrite "Timpa user agen yang ada ketika mengimpor">
+<!ENTITY useragentswitcher.menu.hide "Sembunyikan menu Peralatan User Agent Switcher">
+<!ENTITY useragentswitcher.move.down "Kebawah">
+<!ENTITY useragentswitcher.move.up "Keatas">
+<!ENTITY useragentswitcher.name "User Agent Switcher">
+<!ENTITY useragentswitcher.name.key "U">
+<!ENTITY useragentswitcher.name.label "Nama:">
+<!ENTITY useragentswitcher.new "Baru">
+<!ENTITY useragentswitcher.new.folder "Folder Baru...">
+<!ENTITY useragentswitcher.new.separator "Separator Baru">
+<!ENTITY useragentswitcher.new.user.agent "User Agent Baru...">
+<!ENTITY useragentswitcher.new.user.agent.description "The default user agent values are displayed below. Add a description and edit any of the values to create a new user agent.">
+<!ENTITY useragentswitcher.options "Opsi...">
+<!ENTITY useragentswitcher.options.key "O">
+<!ENTITY useragentswitcher.options.title "Pengaturan User Agent Switcher">
+<!ENTITY useragentswitcher.paste "Tempel">
+<!ENTITY useragentswitcher.platform "Platform:">
+<!ENTITY useragentswitcher.reset.options "Atur ulang pengaturan...">
+<!ENTITY useragentswitcher.test "Coba...">
+<!ENTITY useragentswitcher.test.key "T">
+<!ENTITY useragentswitcher.user.agent "User Agent">
+<!ENTITY useragentswitcher.user.agent.label "User Agent:">
+<!ENTITY useragentswitcher.user.agents "User Agents">
+<!ENTITY useragentswitcher.vendor "Vendor:">
+<!ENTITY useragentswitcher.vendor.sub "Vendor Sub:">
