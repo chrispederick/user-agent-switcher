@@ -34,7 +34,7 @@
 <!ENTITY useragentswitcher.new.folder "Folder Baru...">
 <!ENTITY useragentswitcher.new.separator "Separator Baru">
 <!ENTITY useragentswitcher.new.user.agent "User Agent Baru...">
-<!ENTITY useragentswitcher.new.user.agent.description "The default user agent values are displayed below. Add a description and edit any of the values to create a new user agent.">
+<!ENTITY useragentswitcher.new.user.agent.description "User agen yang terpilih akan terlihat dibawah ini. Tambahkan beberapa deskripsi dan edit beberapa value untuk membuat user agen baru.">
 <!ENTITY useragentswitcher.options "Opsi...">
 <!ENTITY useragentswitcher.options.key "O">
 <!ENTITY useragentswitcher.options.title "Pengaturan User Agent Switcher">
